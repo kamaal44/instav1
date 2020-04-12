@@ -1,7 +1,7 @@
 #!/bin/bash
 # InstaSpam v1.0
 # github.com/kuro-1/insta-flo
-# Author: @linux_choice (You don't become a coder by just changing the credits)
+# Author: @kuro-1 (You don't become a coder by just changing the credits)
 
 csrftoken=$(curl https://www.instagram.com/accounts/login/ajax -L -i -s | grep "csrftoken" | cut -d "=" -f2 | cut -d ";" -f1)
 
@@ -100,7 +100,7 @@ printf "   | | | '_ \/ __| __/ _\` |\___ \| '_ \ / _\` | '_ \` _ \  \n"
 printf "  _| |_| | | \__ \ || (_| |____) | |_) | (_| | | | | | | \n"
 printf " |_____|_| |_|___/\__\__,_|_____/| .__/ \__,_|_| |_| |_| \n"
 printf "                                 | |                     \n"
-printf "                                 |_|\e[0m\e[1;92mv1.0 @linux_choice\e[0m                     \n"
+printf "                                 |_|\e[0m\e[1;92mv1.0 @kuro-1 \e[0m                     \n"
 printf "\n"
 
 }
